@@ -1,0 +1,37 @@
+@import './components/signin';
+@import './components/layout';
+@import './components/sidenav';
+@import './components/qrcode';
+@import './components/table';
+@import '~react-toastify/dist/ReactToastify.min.css';
+//@import "~bootstrap/scss/bootstrap";
+
+
+body {
+	//font-family: 'Karla', sans-serif;
+	font-family: 'Amiri', serif;
+}
+
+.loader {
+	display: none;
+}
+
+.loading-indicator .loader {
+	display: block;
+	z-index: 9999999;
+}
+
+.pageContainer{
+	margin-top: 2%;
+}
+
+.Pagehead{
+	margin-bottom: 20px;
+}
+
+.loggedinAs{
+	margin-right: 25px;
+	margin-top: 3px;
+	font-style: italic;
+	font-size: 14px;
+}
